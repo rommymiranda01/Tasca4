@@ -23,10 +23,6 @@ article{
 }
 
 .article1{
-    /*display: flex;
-    float: left;
-    width: 31%;*/
-
     background: dodgerblue;
 
     background-image: revert;
@@ -36,9 +32,6 @@ article{
 }
 
 .article2{
-    /*display: flex;
-    width: 31%;
-    float: left;*/
     background: dodgerblue;
 
     background-image: unset;
@@ -49,9 +42,6 @@ article{
 }
 
 .article3{
-    /*display: flex;
-    float: left;
-    width: 31%;*/
     background: dodgerblue;
 
     background-image: inherit;
@@ -79,9 +69,6 @@ h1{
 }
 
 img{
-    /*width: 100%;
-    max-width: 400px;
-    height: auto;*/
     display: block;
     margin: 0 auto;
     max-width: 100%;

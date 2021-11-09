@@ -75,13 +75,17 @@ img:hover{
 
 h1{
     font-family: Cambria;
+    color: #F6FBDB;
 }
 
 img{
-    max-width: 1000px;
-    width: 100%;
-    height: 100%;
-
+    /*width: 100%;
+    max-width: 400px;
+    height: auto;*/
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
 }
 
 @media screen and(max-width: 200px) {

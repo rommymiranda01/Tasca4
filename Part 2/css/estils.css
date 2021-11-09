@@ -13,40 +13,50 @@ nav li{
 }
 
 article{
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
+    padding: 5px;
+
+    display: flex;
+    float: left;
+    width: 31%;
+    height: 560px;
 }
 
 .article1{
-    display: flex;
+    /*display: flex;
     float: left;
+    width: 31%;*/
 
-    /*background-image: ;
-    background-repeat: ;
-    background-size: ;*/
+    background: dodgerblue;
+
+    background-image: revert;
+    background-repeat: no-repeat;
+    background-size: auto;
     border-radius: 5px;
 }
 
 .article2{
-    display: flex;
-    position: relative;
-    float: left;
-    left: 35%;
+    /*display: flex;
+    width: 31%;
+    float: left;*/
+    background: dodgerblue;
 
-    /*background-image: ;
-    background-repeat: ;
-    background-size: ;
-    linear-gradient: ;*/
+    background-image: unset;
+    background-repeat: revert;
+    background-size: cover;
+    /*linear-gradient: ;*/
     border-radius: 5px;
 }
 
 .article3{
-    display: flex;
-    float: right;
+    /*display: flex;
+    float: left;
+    width: 31%;*/
+    background: dodgerblue;
 
-    /*background-image: ;
-    background-repeat: ;
-    background-size: ;*/
+    background-image: inherit;
+    background-repeat: initial;
+    background-size: inherit;
     border-radius: 5px;
 }
 
@@ -65,4 +75,23 @@ img:hover{
 
 h1{
     font-family: Cambria;
+}
+
+img{
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+
+}
+
+@media screen and(max-width: 200px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+
 }
